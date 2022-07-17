@@ -15,6 +15,8 @@ type
     BG_logo: TRectangle;
     Image1: TImage;
     FloatAnimation1: TFloatAnimation;
+    Image2: TImage;
+    FloatAnimation2: TFloatAnimation;
   private
     { Private declarations }
   public
