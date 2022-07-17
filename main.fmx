@@ -1,9 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+  BorderStyle = None
   Caption = 'Form1'
   ClientHeight = 812
   ClientWidth = 375
+  Position = DesktopCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -40,6 +42,7 @@ object Form1: TForm1
         Size.Height = 812.000000000000000000
         Size.PlatformDefault = False
         Stroke.Kind = None
+        OnMouseDown = BG_logoMouseDown
         object Image1: TImage
           MultiResBitmap.Height = 993
           MultiResBitmap.Width = 1350
@@ -3045,6 +3048,8 @@ object Form1: TForm1
                 'o_white.png'
             end>
           Align = Center
+          HitTest = False
+          Opacity = 0.000000000000000000
           Margins.Top = -200.000000000000000000
           Size.Width = 305.000000000000000000
           Size.Height = 146.000000000000000000
@@ -4429,19 +4434,12 @@ object Form1: TForm1
                 'ng'
             end>
           Align = Top
+          HitTest = False
           Margins.Top = 71.000000000000000000
           Position.Y = 71.000000000000000000
           Size.Width = 375.000000000000000000
           Size.Height = 82.000000000000000000
           Size.PlatformDefault = False
-          object FloatAnimation2: TFloatAnimation
-            Enabled = True
-            Delay = 0.500000000000000000
-            Duration = 1.000000000000000000
-            PropertyName = 'Opacity'
-            StartValue = 0.000000000000000000
-            StopValue = 1.000000000000000000
-          end
         end
       end
     end

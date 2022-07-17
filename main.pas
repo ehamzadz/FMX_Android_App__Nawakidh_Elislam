@@ -16,7 +16,8 @@ type
     Image1: TImage;
     FloatAnimation1: TFloatAnimation;
     Image2: TImage;
-    FloatAnimation2: TFloatAnimation;
+    procedure BG_logoMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
   private
     { Private declarations }
   public
@@ -29,5 +30,11 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TForm1.BG_logoMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Single);
+begin
+  if(Button = TMouseButton.mbLeft) then StartWindowDrag;
+end;
 
 end.
