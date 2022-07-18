@@ -47,6 +47,8 @@ type
     procedure BG_logoMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
     procedure FloatAnimation1Finish(Sender: TObject);
+    procedure Text6Click(Sender: TObject);
+    procedure Text5Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -69,7 +71,20 @@ end;
 procedure TForm1.FloatAnimation1Finish(Sender: TObject);
 begin
   sleep(1000);
-  //tabcontrol1.TabIndex := 1;
+  tabcontrol1.TabIndex := 1;
+  FloatAnimation1.Enabled := false;
+end;
+
+procedure TForm1.Text5Click(Sender: TObject);
+begin
+  Image1.Opacity := 0;
+  tabcontrol1.TabIndex := 0;
+  FloatAnimation1.Enabled := true;
+end;
+
+procedure TForm1.Text6Click(Sender: TObject);
+begin
+  tabcontrol1.TabIndex := 2;
 end;
 
 end.
