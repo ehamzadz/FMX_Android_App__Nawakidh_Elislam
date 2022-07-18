@@ -2,9 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/07/17 01:47:15.000.921,=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/07/17 01:48:19.000.761,C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit1.fmx=E:\Github\Android App\نواقض الإسلام\main.fmx</Transaction>
-    <Transaction>2022/07/17 01:48:19.000.761,C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Github\Android App\نواقض الإسلام\main.pas</Transaction>
-    <Transaction>2022/07/17 01:49:22.000.437,C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\Github\Android App\نواقض الإسلام\nawakidhElislam.dproj</Transaction>
-  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="33006584c0c9a38d" Android64="33006584c0c9a38d"/>
-  </ActiveMobileDevice>
+    <Transaction>2022/07/17 01:48:19.000.761,E:\Github\Android App\نواقض الإسلام\main.fmx=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/07/17 01:48:19.000.761,E:\Github\Android App\نواقض الإسلام\main.pas=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/17 01:49:22.000.437,E:\Github\Android App\نواقض الإسلام\nawakidhElislam.dproj=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="33006584c0c9a38d" Android64="33006584c0c9a38d"/>
+	</ActiveMobileDevice>
 </BorlandProject>

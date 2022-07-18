@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Ani,
   FMX.Effects, FMX.Objects, FMX.Layouts, FMX.TabControl, RTL.Controls,
-  FMX.Controls.Presentation, FMX.StdCtrls;
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Memo.Types, FMX.ScrollBox,
+  FMX.Memo;
 
 type
   TForm1 = class(TForm)
@@ -17,7 +18,6 @@ type
     Image1: TImage;
     FloatAnimation1: TFloatAnimation;
     Image2: TImage;
-    TabItem1: TTabItem;
     Rectangle1: TRectangle;
     SpeedButton1: TSpeedButton;
     Text1: TText;
