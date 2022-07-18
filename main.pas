@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Ani,
-  FMX.Effects, FMX.Objects, FMX.Layouts, FMX.TabControl, RTL.Controls;
+  FMX.Effects, FMX.Objects, FMX.Layouts, FMX.TabControl, RTL.Controls,
+  FMX.Controls.Presentation, FMX.StdCtrls;
 
 type
   TForm1 = class(TForm)
@@ -16,8 +17,36 @@ type
     Image1: TImage;
     FloatAnimation1: TFloatAnimation;
     Image2: TImage;
+    TabItem1: TTabItem;
+    Rectangle1: TRectangle;
+    SpeedButton1: TSpeedButton;
+    Text1: TText;
+    Text2: TText;
+    Text3: TText;
+    light_grey: TBrushObject;
+    SpeedButton2: TSpeedButton;
+    VertScrollBox1: TVertScrollBox;
+    one: TTabItem;
+    Text4: TText;
+    VertScrollBox2: TVertScrollBox;
+    Rectangle2: TRectangle;
+    SpeedButton3: TSpeedButton;
+    Text6: TText;
+    SpeedButton4: TSpeedButton;
+    Text5: TText;
+    Text7: TText;
+    Text9: TText;
+    Text8: TText;
+    Text10: TText;
+    Text11: TText;
+    Text12: TText;
+    Text13: TText;
+    Text14: TText;
+    Text15: TText;
+    Text16: TText;
     procedure BG_logoMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
+    procedure FloatAnimation1Finish(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,6 +64,12 @@ procedure TForm1.BG_logoMouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Single);
 begin
   if(Button = TMouseButton.mbLeft) then StartWindowDrag;
+end;
+
+procedure TForm1.FloatAnimation1Finish(Sender: TObject);
+begin
+  sleep(1000);
+  //tabcontrol1.TabIndex := 1;
 end;
 
 end.
